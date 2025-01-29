@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Test Suite1">
+<!--<listeners>
+<listener class-name="testNG.listenersCode"> </listener>
+</listeners>
+<test name = "Test case1">
+<parameter name = "name" value = "Bruce">
+</parameter> -->
+<!-- <groups> 
+<run>
+<include name ="Redbull"> </include>
+<exclude name = "Austin"> </exclude>
+</run>
+</groups> -->
+<test name = "Test case1 ">
+<classes>
+<!-- <class name="testNG.SampleTestCases"> </class>
+<class name = "testNG .TestSuite"></class> -->
+<class name="testNG.basicfns"> 
+</class>
+</classes>
+</test>
+</suite>
